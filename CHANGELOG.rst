@@ -9,6 +9,10 @@ Next
 #. Added tooltips buttons and metric titles, with metric title tooltip being metric description (new field added).
 #. Limit export sheet names to 31 characters as imposed by Excel `#5 https://github.com/shaunsephton/holodeck/issues/5`_.
 
+0.1.5 (2014-10-27)
+------------------
+#. Remove south migrations - migrations can be added manually to a project using SOUTH_MIGRATION_MODULES
+
 0.1.1 (2012-10-15)
 ------------------
 #. Added mouse hover date formatter `#6 <https://github.com/shaunsephton/holodeck/issues/6>`_.
