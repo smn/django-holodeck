@@ -2,14 +2,15 @@ from setuptools import setup, find_packages
 
 setup(
     name='django-holodeck',
-    version='0.1.4',
+    version='0.1.5',
     description='Django based simple dashboard system.',
-    long_description = open('README.rst', 'r').read() + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
+    long_description=open('README.rst', 'r').read(
+    ) + open('AUTHORS.rst', 'r').read() + open('CHANGELOG.rst', 'r').read(),
     author='Shaun Sephton',
     author_email='shaun@28lines.com',
     url='http://github.com/shaunsephton/holodeck',
-    packages = find_packages(),
-    install_requires = [
+    packages=find_packages(),
+    install_requires=[
         'django==1.6',
         'south',
         'xlwt',
